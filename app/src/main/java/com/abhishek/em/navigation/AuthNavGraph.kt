@@ -14,3 +14,5 @@ fun NavGraphBuilder.authNavGraph(navController: NavHostController) {
         LoginScreen(navController)
     }
 }
+
+// Gote mu emin
