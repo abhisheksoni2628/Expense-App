@@ -1,0 +1,40 @@
+# Android Studio & IntelliJ
+*.iml
+.idea/
+.gradle/
+local.properties
+.caches/
+
+# Build output
+/build/
+**/build/
+
+# Signing keys
+*.jks
+*.keystore
+*.key
+*.pem
+*.p12
+
+# APKs / AABs
+*.apk
+*.ap_
+*.aab
+
+# Logs & crash reports
+*.log
+captures/
+
+# Environment / secrets
+.env
+.env.*
+*.secret
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Kotlin
+*.kotlin_module
