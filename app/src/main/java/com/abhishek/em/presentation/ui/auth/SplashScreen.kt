@@ -3,6 +3,7 @@ package com.abhishek.em.presentation.ui.auth
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -33,7 +34,7 @@ fun SplashScreen(navController: NavHostController) {
         }
     }
 
-    Box(Modifier.fillMaxSize().background(Color.Magenta), contentAlignment = Alignment.Center) {
+    Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background), contentAlignment = Alignment.Center) {
         Text("🌟 Splash Screen")
     }
 }

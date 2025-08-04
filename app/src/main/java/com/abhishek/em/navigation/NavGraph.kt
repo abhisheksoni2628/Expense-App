@@ -14,6 +14,6 @@ fun AppNavGraph(navController: NavHostController) {
         startDestination = Routes.Splash
     ) {
         authNavGraph(navController)
-        mainNavGraph(navController)
+//        mainNavGraph(navController)
     }
 }
